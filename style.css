@@ -16,9 +16,6 @@ body{
     display: grid;
     margin: 0 auto;
     height: 150px;
-    border-top: 5px solid;
-    border-bottom: 5px solid;
-    border-color:rgba(255,0,0,0.2);
     width: 80%;
     
 }
@@ -27,9 +24,12 @@ h2 {
     display: grid;
     color: red;
     text-align: center;
-    padding: 2.9rem;
+    padding: 4rem;
     font-family: roboto;
-    text-align: left;
+    text-align: center;
+    animation: backInDown;
+    animation-duration: 1s;
+
 }
 
 h2>span{
@@ -53,7 +53,7 @@ h2>span{
     padding: 2.5em;
     background-color: rgb(32, 9, 9);
     color: white;
-    border: rgba(255,0,0,0.2) solid 2px;
+    border: rgba(39,0,0,0.5) solid 2px;
     border-radius: 5px;
     font-family: roboto arial;
   }
